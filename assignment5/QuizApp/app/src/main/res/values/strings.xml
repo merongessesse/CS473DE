@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="_1_questions_list">1. # is used to insert COMMENTS in Kotlin code</string>
+    <string name="_2_questions_list">2. fun is a keyword is used to declare a function in Kotlin.</string>
+    <string name="true_answer">True</string>
+    <string name="false_answer">False</string>
+    <string name="both">Both</string>
+    <string name="btn_reset">reset</string>
+</resources>
