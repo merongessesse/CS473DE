@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CVBuilder</string>
+    <string name="dmi">Meron Gessesse</string>
+    <string name="fullstack">Full stack Engineer</string>
+    <string name="projects"><b>TechBrain</b>:Casual works android app.\n<b>Votes App</b>:Voting Android and web app \n<b>Eat Now</b>:Android app for ordering food online.</string>
+    <string name="intro">Talented Software Engineer with 5+ years of professional experience leading complex projects through all phases of software development life cycle while meeting strict deadlines. Demonstrated expertise in streamlining and enhancing development processes by researching and implementing best methodologies. Skilled in using technologies such as Java, Angular, Node.js, JavaScript, CSS, and Hibernate.</string>
+    <string name="work_experience">
+        <b>Methods Engineer</b>\n
+        <b>Bombardier Aerospace</b>\n
+
+•Analyzed and documented business requirements.\n
+•Built and implemented user interfaces and database objects.\n\n\
+        <b>Full Stack Engineer</b>\n
+        <b>CVS Pharmacy</b>\n
+•Analyzed and suggested best practices for software development\n
+•Participated in the development of a Data analytic web application using Angular 12\n
+•Wrote Unit and Integration tests in the web application using Karma, Jasmine and Cypress testing utilities.\n
+
+    </string>
+    <string name="career_note_label">About Me</string>
+    <string name="about_me_label">About Me</string>
+    <string name="about_me">Talented Software Engineer with 7 years of professional experience working on complex projects through all phases of software development life cycle while meeting strict deadlines. Demonstrated expertise in streamlining and enhancing development processes by researching and implementing best methodologies. Skilled in using technologies such as Java, Angular, Node.js, JavaScript, CSS, and Hibernate.</string>
+    <string name="university">Universities</string>
+    <string name="education">Education</string>
+    <string name="_11_8_2020">11/8/2020</string>
+    <string name="certifications">Certifications</string>
+    <string name="ifm">Institute of Finance Management</string>
+    <string name="bachelor">Bachelor in Computing Technology</string>
+    <string name="master_of_science_in_computer_science">Master of Science in Computer Science</string>
+    <string name="maharishi_international_university">Maharishi International University</string>
+    <string name="oracle">Oracle SE, Certified Professional Developer</string>
+    <string name="_2_5_2019">2/5/2019</string>
+    <string name="github_name">GitHub</string>
+    <string name="github">merongessesse</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="linked_in">www.linkedin/in/merongessesse</string>
+    <string name="email">Email</string>
+    <string name="scul_email">mgessesse@miu.com</string>
+    <string name="phone">Phone</string>
+    <string name="phone_number">6414510833</string>
+    <string name="contact_info">Contacts Information</string>
+    <string name="educating_students_as_ta">Teaching Assistant</string>
+    <string name="work_experience_label">Work Experience</string>
+    <string name="com_analyst">Methods Engineer</string>
+    <string name="_2020_present">2020 - Present</string>
+    <string name="projects_label">Projects</string>
+    <string name="microsoft_devops_engineer">Software Engineer</string>
+    <string name="mobile_application_engineer">Full Stack Engineer</string>
+    <string name="cancel">Cancel</string>
+    <string name="saved_theme">theme</string>
+</resources>
