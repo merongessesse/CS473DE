@@ -1,1 +1,1 @@
-# walmartapp
+The Screenshot pdf is included
