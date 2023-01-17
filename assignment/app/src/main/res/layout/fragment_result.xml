@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/header_title" android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_marginEnd="16dp"
+            android:text="Quizz Result"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_h6_size"
+            android:fontFamily="@font/roboto_bold"
+            android:textAllCaps="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <ImageView
+            android:id="@+id/dialogImageView"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header_title"
+            app:srcCompat="@drawable/statisticsicon" />
+
+        <TextView
+            android:id="@+id/totalQuestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto"
+            android:text="Total Questions: "
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/font_h6_size"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dialogImageView" />
+        <TextView
+            android:id="@+id/totalQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto"
+            android:text=" 15"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/font_h6_size"
+            app:layout_constraintStart_toEndOf="@id/totalQuestion2"
+            app:layout_constraintRight_toRightOf="@id/totalQuestion2"
+            app:layout_constraintTop_toBottomOf="@+id/dialogImageView" />
+
+        <TextView
+            android:id="@+id/correctanswers2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto"
+            android:text="Correct Answers: "
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/font_h6_size"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/totalQuestion2" />
+        <TextView
+            android:id="@+id/correctanswers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto"
+            android:text="8"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/font_h6_size"
+            app:layout_constraintStart_toEndOf="@id/correctanswers2"
+            app:layout_constraintRight_toRightOf="@id/correctanswers2"
+            app:layout_constraintTop_toBottomOf="@+id/totalQuestion2" />
+        <TextView
+            android:id="@+id/score2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto"
+            android:text="Score (Pct): "
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/font_h6_size"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/correctanswers2" />
+        <TextView
+            android:id="@+id/scoreTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/roboto"
+            android:text="65%"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/font_h6_size"
+            app:layout_constraintStart_toEndOf="@id/score2"
+            app:layout_constraintRight_toRightOf="@id/score2"
+            app:layout_constraintTop_toBottomOf="@+id/correctanswers2" />
+
+        <View
+            android:id="@+id/view78"
+            android:layout_width="411dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@color/md_grey_200"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/score2" />
+
+
+        <Button
+            android:id="@+id/retakeBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorAccent"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/roboto"
+            android:text="Retake Quizz"
+            android:textAllCaps="false"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/font_body_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view78" />
+
+        <Button
+            android:id="@+id/btnAnalysis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/button_dialog_no_radius_and_no_stoke"
+            android:text="Quizz Analysis"
+            android:textAllCaps="false"
+            android:textColor="@color/md_grey_900"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/retakeBtn" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

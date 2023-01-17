@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/dynamicTableLayout/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/dynamictablelayout/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/walmart/app/src/main/res/drawable/layout_border.xml" value="0.2025" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/walmart/app/src/main/res/drawable/layout_border_background.xml" value="0.2025" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/walmart/app/src/main/res/drawable/layout_border_foreground.xml" value="0.2025" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/walmart/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment3/walmart/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2025" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment5/quizzapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/Assignment5/walmartapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment2/app/src/main/res/layout/activity_main.xml" value="0.1598731884057971" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment4/walmart/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment4/walmart/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment4/walmart/app/src/main/res/layout/activity_shopping_category.xml" value="0.2359375" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment7/quizzapp/app/src/main/res/layout/activity_main.xml" value="0.17864583333333334" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment7/quizzapp/app/src/main/res/layout/analyis_item_view.xml" value="0.17135416666666667" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment7/quizzapp/app/src/main/res/layout/fragment_analysis.xml" value="0.11458333333333333" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment7/quizzapp/app/src/main/res/layout/fragment_base.xml" value="0.11458333333333333" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment7/quizzapp/app/src/main/res/layout/fragment_home.xml" value="0.16458333333333333" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment7/quizzapp/app/src/main/res/layout/fragment_result.xml" value="0.178125" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment7/quizzapp/app/src/main/res/layout/fragment_start.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/Assignments/assignment_2_dinnerdecider/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Data Files/projects/android studio projects/MDP/lessontwo/app/src/main/res/layout/reference_layout_main.xml" value="0.1598731884057971" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
